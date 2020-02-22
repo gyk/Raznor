@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Raznor.XF" x:Class="Raznor.XF.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="songList" ItemTapped="OnSongTapped" />
+
+            <ProgressBar x:Name="progressBar" />
+
+            <StackLayout Orientation="Horizontal" Padding="10,0,10,20">
+                <Button x:Name="openButton"
+                        Text="Open"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="Center"
+                        Clicked="OnOpenButtonClicked" />
+
+                <Button x:Name="playButton"
+                        Text="Play"
+                        IsEnabled="False"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="Center"
+                        Clicked="OnPlayButtonClicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

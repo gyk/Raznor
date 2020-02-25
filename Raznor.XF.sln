@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Raznor.XF.Droid", "Droid\Raznor.XF.Droid.fsproj", "{E06D70BB-58DD-4B5C-9838-B13383F96B51}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Raznor.XF", "Raznor.XF\Raznor.XF.fsproj", "{597BA4D1-CE4B-40DC-AC23-138F0E4FABBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E06D70BB-58DD-4B5C-9838-B13383F96B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06D70BB-58DD-4B5C-9838-B13383F96B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06D70BB-58DD-4B5C-9838-B13383F96B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06D70BB-58DD-4B5C-9838-B13383F96B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597BA4D1-CE4B-40DC-AC23-138F0E4FABBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597BA4D1-CE4B-40DC-AC23-138F0E4FABBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597BA4D1-CE4B-40DC-AC23-138F0E4FABBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597BA4D1-CE4B-40DC-AC23-138F0E4FABBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

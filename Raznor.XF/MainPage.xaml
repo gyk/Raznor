@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Raznor.XF.MainPage"
+             Title="Audio Player">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="70" />
+        </Grid.RowDefinitions>
+        <ListView x:Name="songList"
+                  Grid.Row="0"
+                  ItemTapped="OnItemTapped" />
+        <MediaElement x:Name="mediaElement"
+                      Grid.Row="1"
+                      ShowsPlaybackControls="True" />
+        <Button x:Name="openButton"
+                Grid.Row="2"
+                Margin="10"
+                Text="Open"
+                HorizontalOptions="Center" />
+    </Grid> 
+</ContentPage>

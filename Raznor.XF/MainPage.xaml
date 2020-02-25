@@ -19,6 +19,7 @@
                 Grid.Row="2"
                 Margin="10"
                 Text="Open"
+                Clicked="OnOpenButtonClicked"
                 HorizontalOptions="Center" />
     </Grid> 
 </ContentPage>
